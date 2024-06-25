@@ -130,3 +130,15 @@ const user = new User22;
 user.isAdmin("admin").then(value => {
   console.log(value)
 })
+
+
+
+function say_hi_bye(name, num) {
+  // write your code here
+    const hi = 1;
+    if (num === hi){
+      return `Hi ${name}`
+    }
+    return `Bye ${name}`
+}
+console.log(say_hi_bye("Ahmed", 0));
